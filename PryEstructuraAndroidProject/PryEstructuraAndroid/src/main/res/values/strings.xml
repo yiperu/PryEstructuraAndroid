@@ -5,4 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="cad1">Hello Peru!</string>
+    <string name="cad2">Hello Argentina!</string>
+    <string name="cad3">Hello Chile!</string>
+
 </resources>
