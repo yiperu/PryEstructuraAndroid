@@ -20,6 +20,21 @@ public class MainActivity extends Activity {
         } else {
             tv1.setText("Mi apellido es Ambicho");
         }
+        // Declaracion de Variables:
+        // Enteros
+        int numero = 1000;
+        // Cademas
+        String cadena1 = "Hola, esto es una cadena";
+        // Decimales
+        double decimal = 12.65;
+        // Booleanos
+        boolean x1 = false;
+        boolean x2 = true;
+
+        //Arreglos
+        int [] arreglo1 = new int[] {10,23,45,67,123,146,278};
+        
+
 
     }
 
