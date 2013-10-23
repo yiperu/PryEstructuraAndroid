@@ -1,5 +1,6 @@
 package com.apps4s.pryestructuraandroid;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -8,12 +9,16 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 
     TextView tv1;
+    TextView tv2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         tv1 = (TextView)findViewById(R.id.cad1);
+        tv2 = (TextView)findViewById(R.id.cad2);
+
         boolean condicion = false;
         if (condicion){
             tv1.setText("Me llamo Henry");
@@ -33,8 +38,13 @@ public class MainActivity extends Activity {
 
         //Arreglos
         int [] arreglo1 = new int[] {10,23,45,67,123,146,278};
-        
 
+        // Mostrar el dato en un TextView
+        tv2 = (TextView)findViewById(R.id.cad2);
+        String recuperado = tv2.getText().toString();
+        tv2.setText(recuperado+" \n Tutorial Android");
+        tv2.setTextSize(20);
+        tv2.setTextColor(Color.RED);
 
     }
 
